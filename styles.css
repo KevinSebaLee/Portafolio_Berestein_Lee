@@ -1,11 +1,89 @@
+.circle {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+  mix-blend-mode: difference;
+  background-color: transparent;
+  z-index: 10000;
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  transition: all 70ms ease-out;
+}
+
+.minicircle {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  left: -100px;
+  top: 50%;
+  mix-blend-mode: difference;
+  background-color: transparent;
+  z-index: 10000;
+  border: 2px solid white;
+  height: 8px;
+  width: 8px;
+  transition: all 50ms ease-out;
+}
+
 body {
-    font-family: 'Roboto Mono';
+  font-family: "Roboto Mono";
+  color: white !important;
 }
 
-.navbar-brand{
-    font-size: 200%;
-
-    margin-left: 2%;
-    margin-right: 20%;
+body,
+.navbar,
+.card-body,
+.card-img-top {
+  background-color: #15212e !important;
 }
 
+a,
+p,
+.card-title {
+  color: white !important;
+}
+
+.nav-item {
+  transition: 0.2s;
+}
+
+ul:hover .nav-item:not(:hover) {
+  filter: brightness(50%);
+}
+
+.navbar {
+  margin-top: 1.8%;
+}
+
+.navbar-brand {
+  color: aquamarine !important;
+}
+
+.navbar-nav {
+  margin-right: 2%;
+}
+
+.navbar-brand {
+  font-size: 200%;
+}
+
+.Introduccion h1 {
+  font-family: "Poppins";
+  font-size: 1000%;
+}
+
+.card-group-title {
+
+  font-size: 450%;
+}
+
+.card-img-top {
+  height: 70px;
+  width: 70px;
+  float: left;
+}
