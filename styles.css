@@ -52,10 +52,6 @@ ul:hover .nav-item:not(:hover) {
 }
 
 .navbar-brand {
-  color: aquamarine !important;
-}
-
-.navbar-brand {
   font-size: 200%;
 }
 
@@ -68,8 +64,15 @@ ul:hover .nav-item:not(:hover) {
   font-size: 450%;
 }
 
-.card-img-top {
-  height: 70px;
-  width: 70px;
-  float: left;
+.Jobs{
+  font-family: 'Roboto Mono';
+}
+
+.accordion-button{
+  background-color: blueviolet !important; 
+  color: white;
+}
+
+.container footer div div ul li a{
+  color: white !important;
 }
